@@ -1,5 +1,19 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+> **Our submission** lives in `solution/`; the approach is written up in
+> [TECHNICAL.md](TECHNICAL.md). To regenerate the file (Python 3.12–3.14, match data in `data/`
+> or `MTAH_DATA_DIR`):
+>
+> ```bash
+> pip install -r requirements-solution.txt
+> python solution/check_data.py                       # optional: summaries-only sanity checks
+> python solution/make_submission.py --team <team_name>
+> python evaluation/validate_submission.py evaluation/results/<team_name>.csv
+> python tests/test_pipeline.py                       # no data needed: synthetic end-to-end test
+> ```
+>
+> Everything below is the organisers' challenge README, unchanged.
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 

@@ -1,0 +1,6 @@
+# Exact versions our submission file is produced with. Python 3.12, 3.13 or 3.14.
+#
+# The organisers' requirements.txt is deliberately unpinned; ours is pinned because the rules ask
+# for a repository that regenerates the submitted file exactly, not approximately.
+numpy==2.5.3
+pandas==3.0.5
